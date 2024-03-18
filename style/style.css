@@ -196,11 +196,36 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media screen and (max-width: 768px) {
   /* CSS styles for smaller screens */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
   .game-container {
-    max-width: 640px;
-    margin: 0 auto;
-    text-align: center;
+    width: 100vw;
+  }  
+  .guessing-area {
     display: flex;
     flex-direction: column;
-  }  
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .instructions {
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .instruction {
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+  }
 }
+
