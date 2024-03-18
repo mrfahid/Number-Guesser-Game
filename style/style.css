@@ -193,3 +193,14 @@ input[type="number"]::-webkit-inner-spin-button {
   color: #ec3636;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  /* CSS styles for smaller screens */
+  .game-container {
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }  
+}
